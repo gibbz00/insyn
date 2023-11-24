@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "insyn"
+version = "0.1.0"
+description = ""
+authors = ["gibbz00 <gabrielhansson00@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+swedish-market-insights = "^0.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
